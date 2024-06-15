@@ -1,0 +1,392 @@
+{
+    "pool": {
+        "s1_nc_nc_01": {
+            "id": "s1_nc_nc_01",
+            "name": "Neogenesis Church",
+            "faction": "neogenesis",
+            "type": "leader",
+            "ruleText": "{t}: Restore one health to target unit from the Creche.",
+            "flavourText": "*...and He went into the garden of Eden, and there He made the Trees of Life and Knowledge, which were forbidden to all the people.*"
+        },    
+        "s1_nc_nc_02": {
+            "id": "s1_nc_nc_02",
+            "name": "Citadel",
+            "faction": "neogenesis",
+            "type": "citadel",
+            "ruleText": "Gain {t}{t} from the Creche during your growth phase.",
+            "flavourText": "*Growth -> Upkeep -> Forge -> Combat -> Draw*"
+        },
+        "s1_nc_nc_03": {
+            "id": "s1_nc_nc_03",
+            "name": "Theocracy",
+            "faction": "neogenesis",
+            "type": "augment",
+            "subType": "facility",
+            "forgeCost": 2,
+            "ruleText": "You may move an additional citizen from this facility to your Citadel during your upkeep.",
+            "flavourText": "*A man driven by faith will work until his hands bleed, and his legs fail him.*"
+        },
+        "s1_nc_nc_04": {
+            "id": "s1_nc_nc_04",
+            "name": "Clinical Immortality",
+            "faction": "neogenesis",
+            "type": "augment",
+            "subType": "unit",
+            "forgeCost": 4,
+            "ruleText": "Choose a unit in a scrap and place it in the back of target lane. Attach this card. Add one health from your Citadel.<br>This unit gains **Resilient** *(Restore one health from the Creche during your growth phase).*",
+            "flavourText": "*Humanity is shed as easily as an old skin.*"
+        },
+        "s1_nc_nc_05": {
+            "id": "s1_nc_nc_05",
+            "name": "Gravelinks",
+            "faction": "neogenesis",
+            "type": "augment",
+            "subType": "unit",
+            "forgeCost": 2,
+            "ruleText": "This unit gains **+1 Attack** for every unit in your scrap.",
+            "flavourText": "*Memory augs provide immortality in the barracks - long dead soldiers train the living.*"
+        },
+        "s1_nc_nc_06": {
+            "id": "s1_nc_nc_06",
+            "name": "Hymn of Knitting",
+            "faction": "neogenesis",
+            "type": "augment",
+            "subType": "unit",
+            "forgeCost": 2,
+            "ruleText": "Units adjacent to this one restore one health from the Creche during your growth phase.",
+            "flavourText": "*Zen Gospel clerics form the backbone of nanite-infused troops, their song rippling over the battlefield like a soothing mist.*"
+        },
+        "s1_nc_nc_07": {
+            "id": "s1_nc_nc_07",
+            "name": "Pious Devotion",
+            "faction": "neogenesis",
+            "type": "augment",
+            "subType": "unit",
+            "forgeCost": 3,
+            "ruleText": "If this unit deals lethal combat damage, place a {t} on your Citadel.",
+            "flavourText": "*Creche workers respect pious genes, and sometimes a splicer will make an exception for a war hero.*"
+        },
+        "s1_nc_nc_08": {
+            "id": "s1_nc_nc_08",
+            "name": "Absolution Sphere",
+            "faction": "neogenesis",
+            "type": "facility",
+            "subType": "colony",
+            "forgeCost": 4,
+            "ruleText": "{d}: Flip all {d} who work Absolution Sphere.",
+            "flavourText": "*The first thing to enter the sphere was a young girl, gov-drafted, told nothing. Six days later it spat her out, babbling like a newborn."
+        },
+        "s1_nc_nc_09": {
+            "id": "s1_nc_nc_09",
+            "name": "Halo Lift",
+            "faction": "neogenesis",
+            "type": "facility",
+            "subType": "colony",
+            "forgeCost": 3,
+            "ruleText": "{d}: Move target unit you control *(may not be used during combat).*",
+            "flavourText": "*You pray the lift puts you on the ground rightside up, outside-in - altogether the same you were before you got in the damn thing.*"
+        },
+        "s1_nc_nc_10": {
+            "id": "s1_nc_nc_10",
+            "name": "House of Meditation",
+            "faction": "neogenesis",
+            "type": "facility",
+            "subType": "colony",
+            "forgeCost": 3,
+            "ruleText": "{d}: Draw a card *(you may exceed 8 cards).*",
+            "flavourText": "*Mind and matter are one and the same here - we can coax Apsyntion if we listen.*<br>*-Chimera Handler Lenaius*"
+        },
+        "s1_nc_nc_11": {
+            "id": "s1_nc_nc_11",
+            "name": "Library of the Ark",
+            "faction": "neogenesis",
+            "type": "facility",
+            "subType": "colony",
+            "forgeCost": 3,
+            "ruleText": "{t}: Choose a non-reflex card in your scrap and add it to your hand, then discard a card.",
+            "flavourText": "*Waste not, want not.*"
+        },
+        "s1_nc_nc_12": {
+            "id": "s1_nc_nc_12",
+            "name": "Neogenesis Chapel",
+            "faction": "neogenesis",
+            "type": "facility",
+            "subType": "colony",
+            "forgeCost": 4,
+            "ruleText": "{t}: Draw a card from your deck. If it is an echo, score it. If not, discard it.",
+            "flavourText": "*Sermons drive the faithful towards great works, and stire suspicion of reformation.*"
+        },
+        "s1_nc_nc_13": {
+            "id": "s1_nc_nc_13",
+            "name": "Terra Colossus",
+            "faction": "neogenesis",
+            "type": "facility",
+            "subType": "colony",
+            "forgeCost": 3,
+            "ruleText": "When you score an Echo, you may place a {d} here from the Creche.<br>{t}: Add any amount of health to target units using {d} from this facility *(you may do this at any time, so long as there are no {t} here).*"
+        },
+        "s1_nc_nc_14": {
+            "id": "s1_nc_nc_14",
+            "name": "Ascetic Virtues",
+            "faction": "neogenesis",
+            "type": "reflex",
+            "forgeCost": 0,
+            "ruleText": "Discard a card: Flip a {d} on your Citadel. Anyone may use this ability so long as this Reflex is in play.",
+            "flavourText": "*Worldly distractions are psychic anchors.*<br>*-Zen Gospel Scripture*"
+        },
+        "s1_nc_nc_15": {
+            "id": "s1_nc_nc_15",
+            "name": "Desertion",
+            "faction": "neogenesis",
+            "type": "reflex",
+            "forgeCost": 2,
+            "ruleText": "Remove 1 health from target unit and place it on its controller's Citadel."
+        },
+        "s1_nc_nc_16": {
+            "id": "s1_nc_nc_16",
+            "name": "Holy Day",
+            "faction": "neogenesis",
+            "type": "reflex",
+            "forgeCost": 3,
+            "ruleText": "Each faction must add a {t} to Holy Day during their Growth phase. Return a {t} to their Citadel if they skip their Combat phase. When Holy Day is scrapped, you must skip your combat phase unless you scrap all {t} on it."
+        },
+        "s1_nc_nc_17": {
+            "id": "s1_nc_nc_17",
+            "name": "Miraculous Escape",
+            "faction": "neogenesis",
+            "type": "reflex",
+            "forgeCost": 1,
+            "ruleText": "Target a unit in a battle that would be scrapped. At the end of the battle phase, return it to the back of its lane with one health."
+        },
+        "s1_nc_nc_18": {
+            "id": "s1_nc_nc_18",
+            "name": "Symmetric Supplication",
+            "faction": "neogenesis",
+            "type": "reflex",
+            "forgeCost": 2,
+            "ruleText": "Flip the citizens used for this reflex.",
+            "flavourText": "*To master the self, you must first master your fear of the other.*"
+        },
+        "s1_nc_nc_19": {
+            "id": "s1_nc_nc_19",
+            "name": "Zealotry",
+            "faction": "neogenesis",
+            "type": "reflex",
+            "forgeCost": 2,
+            "ruleText": "Your **Human** units gain +1 **Attack**.<br>You may scrap any number of {d} from your Citadel to deal the same amount of damage to target **non-human** unit."
+        },
+        "s1_nc_nc_20": {
+            "id": "s1_nc_nc_20",
+            "name": "Messenger Ferry",
+            "faction": "neogenesis",
+            "type": "unit",
+            "subType": "antigrav",
+            "forgeCost": 2,
+            "attack": 0,
+            "armour": 1,
+            "maxHealth": "2d",
+            "ruleText": "**Airborne** *(Each airborne unit may move during your move phase)*<br>During your movement phase, you may give another player control of this unit, as if it were just forged. They must give you an Echo from their hand if possible. Score it."
+        },
+        "s1_nc_nc_21": {
+            "id": "s1_nc_nc_21",
+            "name": "Acid Baptists",
+            "faction": "neogenesis",
+            "type": "unit",
+            "subType": "human",
+            "forgeCost": 3,
+            "attack": 1,
+            "armour": 1,
+            "maxHealth": "5d",
+            "ruleText": "During your growth phase, you may flip a {d} in your colony.",
+            "flavourText": "*Bathed in a river of memetic nanites, they bring the flock to pasture.*"
+        },
+        "s1_nc_nc_22": {
+            "id": "s1_nc_nc_22",
+            "name": "Crecheling Prophet",
+            "faction": "neogenesis",
+            "type": "unit",
+            "subType": "human",
+            "forgeCost": 3,
+            "attack": 0,
+            "armour": 1,
+            "maxHealth": "1t",
+            "ruleText": "Other units in this lane gain **+1 Attack**<br>If this unit is crapped, you may immediately restore any number of units with citizens from your Citadel.",
+            "flavourText": "*Her scars are fire in the hearts of the faithful*"
+        },
+        "s1_nc_nc_23": {
+            "id": "s1_nc_nc_23",
+            "name": "Deva Monks",
+            "faction": "neogenesis",
+            "type": "unit",
+            "subType": "human",
+            "forgeCost": 4,
+            "attack": 0,
+            "armour": 2,
+            "maxHealth": "5d",
+            "ruleText": "Each time you score an Echo, you may flip a {d} on this unit<br>This unit has **+1 Attack** for each {t} on it.",
+            "flavourText": "*The language of angels can be sharpened.*"
+        },
+        "s1_nc_nc_24": {
+            "id": "s1_nc_nc_24",
+            "name": "Inquisitors",
+            "faction": "neogenesis",
+            "type": "unit",
+            "subType": "human",
+            "forgeCost": 3,
+            "attack": 2,
+            "armour": 1,
+            "maxHealth": "3t",
+            "ruleText": "This unit's breach value is doubled.",
+            "flavourText": "*Brutal? Yes. Necessary? Absolutely. We will not be slaves to artificial masters.*<br>*-Order Priest Gruman*"
+        },
+        "s1_nc_nc_25": {
+            "id": "s1_nc_nc_25",
+            "name": "Jetleap Seraphim",
+            "faction": "neogenesis",
+            "type": "unit",
+            "subType": "human",
+            "forgeCost": 3,
+            "attack": 2,
+            "armour": 1,
+            "maxHealth": "4d",
+            "ruleText": "**Airborne** *(Each airborne unit may move during your move phase)",
+            "flavourText": "*Shock troops. That's just what the church needs.*<br>*-Neogenesis detractor*"
+        },
+        "s1_nc_nc_26": {
+            "id": "s1_nc_nc_26",
+            "name": "Maestra Sangha",
+            "faction": "neogenesis",
+            "type": "unit",
+            "subType": "human",
+            "forgeCost": 4,
+            "attack": 1,
+            "armour": 1,
+            "maxHealth": "3t",
+            "ruleText": "During combat, other units in this lane gain **+1 Attack** for each non-human unit your opponent controls.",
+            "flavourText": "*Fanaticism inspires feats of strength where adrenaline fades.*"
+
+        },
+        "s1_nc_nc_27": {
+            "id": "s1_nc_nc_27",
+            "name": "Relic Seekers",
+            "faction": "neogenesis",
+            "type": "unit",
+            "subType": "human",
+            "forgeCost": 2,
+            "attack": 1,
+            "armour": 1,
+            "maxHealth": "3d",
+            "ruleText": "During your draw phase, you may put one non-Echo card from your hand at the bottom of your deck before drawing."
+        },
+        "s1_nc_nc_28": {
+            "id": "s1_nc_nc_28",
+            "name": "Seraphim Choir",
+            "faction": "neogenesis",
+            "type": "unit",
+            "subType": "human",
+            "forgeCost": 6,
+            "attack": 1,
+            "armour": 0,
+            "maxHealth": "3d",
+            "ruleText": "**Squad** *(This unit gets +1 Attack for every health on it).*<br>**Airborne** *(Each airborne unit may move during your move phase)*",
+            "flavourText": "*Angels of an entirely new order.*"
+        },
+        "s1_nc_nc_29": {
+            "id": "s1_nc_nc_29",
+            "name": "Terra Ascetics",
+            "faction": "neogenesis",
+            "type": "unit",
+            "subType": "human",
+            "forgeCost": 2,
+            "attack": 1,
+            "armour": 0,
+            "maxHealth": "5d",
+            "ruleText": "Each time you lose an Echo you may flip a {d} in your colony.",
+            "flavourText": "*Material possessions are the shackles of the spirit.*"
+        },
+        "s1_nc_nc_30": {
+            "id": "s1_nc_nc_30",
+            "name": "Trench Judges",
+            "faction": "neogenesis",
+            "type": "unit",
+            "subType": "human",
+            "forgeCost": 3,
+            "attack": 2,
+            "armour": 1,
+            "maxHealth": "3t",
+            "ruleText": "**Slavelink** *(This unit gains +1 Attack for every other unit you control in the lane.)*",
+            "flavourText": "*Thousands of years of superstition only to find out we were right all along.*"
+        },
+        "s1_nc_nc_31": {
+            "id": "s1_nc_nc_31",
+            "name": "Webweave Cherubs",
+            "faction": "neogenesis",
+            "type": "unit",
+            "subType": "human",
+            "forgeCost": 3,
+            "attack": 2,
+            "armour": 1,
+            "maxHealth": "4d",
+            "ruleText": "If this unit is in an attack, all units in the enemy lane are **Slow** *(If this unit takes lethal combat damage, it does not deal damage in return).*"
+        },
+        "s1_nc_nc_32": {
+            "id": "s1_nc_nc_32",
+            "name": "White Bishops",
+            "faction": "neogenesis",
+            "type": "unit",
+            "subType": "human",
+            "forgeCost": 3,
+            "attack": 1,
+            "armour": 2,
+            "maxHealth": "3t",
+            "ruleText": "Units adjacent to this one gain **+1 Armor.**",
+            "flavourText": "*We hear you. Your song is our own. Let us partake in choir.*<br>*-Hymns, 24:36*"
+        },
+        "s1_wc_wc_01": {
+            "id": "s1_wc_wc_01",
+            "name": "Windwalker Clans",
+            "faction": "windwalker",
+            "type": "leader"
+        },
+        "s1_wc_wc_02": {
+            "id": "s1_wc_wc_02",
+            "name": "Citadel",
+            "faction": "windwalker",
+            "type": "citadel",
+            "ruleText": "Gain {t}{t} from the Creche during your growth phase.",
+            "flavourText": "*Growth -> Upkeep -> Forge -> Combat -> Draw*"
+        },
+        "s1_ca_ca_01": {
+            "id": "s1_ca_ca_01",
+            "name": "Cult of Apsynthos",
+            "faction": "apsynthos",
+            "type": "leader",
+            "ruleText": "{t}: Flip this {t}. Add 2 {d} to a Citadel from the Creche",
+            "flavourText": "*Genetic tampering Hybrid experimentation. They say they seek to coexist with Apsyntion - I saw, 'here be monsters.'*<br>*-Inquisitor Sandavai, 'The plank and the splinter'*"
+        },
+        "s1_ca_ca_02": {
+            "id": "s1_ca_ca_02",
+            "name": "Citadel",
+            "faction": "apsynthos",
+            "type": "citadel",
+            "ruleText": "Gain {t}{t} from the Creche during your growth phase.",
+            "flavourText": "*Growth -> Upkeep -> Forge -> Combat -> Draw*"
+        },
+        "s1_ub_ub_01": {
+            "id": "s1_ub_ub_01",
+            "name": "Undercity Brotherhood",
+            "faction": "undercity",
+            "type": "leader",
+            "ruleText": "{d}: Target player may choose to draw a random card in their scrap or deck, then discard a target card from their hand.",
+            "flavourText": "*The gospel is broadcast today as it was centuries before, a single pure tone calling the flock to order.*<br>*-Overseer Wei, 'Principles of Indoctrination'*"
+        },
+        "s1_ub_ub_02": {
+            "id": "s1_ub_ub_02",
+            "name": "Citadel",
+            "faction": "undercity",
+            "type": "citadel",
+            "ruleText": "Gain {t}{t} from the Creche during your growth phase.",
+            "flavourText": "*Growth -> Upkeep -> Forge -> Combat -> Draw*"
+        }
+    }
+}
