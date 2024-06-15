@@ -10,7 +10,7 @@ When authoring card text, the following special syntax applies:
 - {t} - A Talent activation/effect in card text
 - {f1} or {f2} etc.. - A forge increment effect in card text
 - \<br\> - A new line
-- ** - Used around words to indicate bold eg. **this sentence is bold**
-- \* - Used around words to indicate italics eg. *this sentence is in italics*
+- ** - Used around words to indicate bold eg. \*\*this sentence is bold\*\*
+- \* - Used around words to indicate italics eg. \*this sentence is in italics\*
 
 
