@@ -249,7 +249,7 @@
             "attack": 2,
             "armour": 1,
             "maxHealth": "4d",
-            "ruleText": "**Airborne** *(Each airborne unit may move during your move phase)",
+            "ruleText": "**Airborne** *(Each airborne unit may move during your move phase)*",
             "flavourText": "*Shock troops. That's just what the church needs.*<br>*-Neogenesis detractor*"
         },
         "s1_nc_nc_26": {
