@@ -74,7 +74,7 @@
             "subType": "colony",
             "forgeCost": 4,
             "ruleText": "{d}: Flip all {d} who work Absolution Sphere.",
-            "flavourText": "*The first thing to enter the sphere was a young girl, gov-drafted, told nothing. Six days later it spat her out, babbling like a newborn."
+            "flavourText": "*The first thing to enter the sphere was a young girl, gov-drafted, told nothing. Six days later it spat her out, babbling like a newborn.*"
         },
         "s1_nc_nc_09": {
             "id": "s1_nc_nc_09",
