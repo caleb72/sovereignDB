@@ -346,7 +346,9 @@
             "id": "s1_wc_wc_01",
             "name": "Windwalker Clans",
             "faction": "windwalker",
-            "type": "leader"
+            "type": "leader",
+            "ruleText": "{d}: Move target unit you control. May not be used during combat.",
+            "flavourText": "*Flung from the womb of Apsynthos, they were the first to emerge from the fallen ark. The Windwalkers appear in the wastes like ghosts.*<br>*-Year One, Datalinks*"
         },
         "s1_wc_wc_02": {
             "id": "s1_wc_wc_02",
